@@ -1,0 +1,38 @@
+/* color de fondo del body*/
+body{
+  background-color: #56C5C5;
+}
+
+/* le asigno el ancho del teclado numérico y le quito margin y padding*/
+#numeros{
+  width:75%;
+  margin: 0;
+  padding: 0;
+}
+
+/* clase que se asigna a los botones que representan números, con un ancho específico para que se muestren en filas de 3*/
+.numero{
+  width:32%;
+  height: 5em;
+  border:none;
+  display:inline;
+}
+
+/* div que contiene los botones con los que operaremos la calculadora, será más pequeño que el teclado numérico */
+#botones{
+  width:25%;
+  background-color: #56C5C5;
+  display:inline;
+}
+
+/* div que se asigna a los botones con los que operaremos la calculadora, ocuparán el total del ancho del div que los contiene y un 16% cada uno del alto
+para ocuparlo verticalmente también en su totalidad */
+.operacion{
+  width:100%;
+  height: 16%;
+}
+
+
+#pantalla{
+  height: 2em;
+}
